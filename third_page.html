@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Коментарии" />
+    <meta name="description" content="Описание" />
+    <title>Urban 2 модуль</title>
+    <link rel="icon" href="favicon/favicon.ico">
+</head>
+<body>
+    <header>
+        <!--ссылки на другие страницы -->
+     <nav class="navigation">
+         <ul class="navigation-list">
+             <li class="navigation-item">
+                 <a href="index.html#mainFrontend">Введение</a>
+             </li>
+             <li class="navigation-item">
+                 <a href="index.html#toolsFrontend">Инструменты</a>
+             </li>
+             <li class="navigation-item">
+                 <a href="index.html#langFrontend">Языки</a>
+             </li>
+             <li class="navigation-item">
+                 <a href="index.html">Главная</a>
+             </li>
+             <li class="navigation-item">
+                 <a href="third_page.html">Оставить комментарий</a>
+             </li>
+         </ul>
+     </nav>
+    </header>
+    <main>
+        <section class="form">
+            <form action="" method="get">
+                <div>
+                    <label for="name">Имя пользователя</label>
+                    <input type="text" placeholder="Имя" name="name" id="name" required style=position:absolute;left:16%;>
+                </div>
+                <div>
+                    <label for="lastname">Фамилия</label>
+                    <input type="text" placeholder="Фамилия" name="lastname" id="lastname" required style=position:absolute;left:16%;>
+                </div>
+                <div>
+                    <label for="email">Ваша почта</label>
+                    <input type="email" placeholder="Ваш e-mail" name="email" id="email" required style=position:absolute;left:16%;>
+                </div>
+                <div>
+                    <label for="date">Дата рождения</label>
+                    <input type="date" placeholder="Дата рождения" name="date" id="date" required style=position:absolute;left:16%;>
+                </div>
+                <div>
+                    <label for="experience">Количество лет <br> в сфере frontend-разработки</label>
+                    <input type="number" placeholder="Ваш стаж" name="experience" id="experience" required style=position:absolute;left:16%;>
+                </div>
+                <div>
+                    <label for="comment">Коментарии</label>
+                    <textarea name="comment" id="comment" style=position:absolute;left:16%;></textarea>
+                </div>
+                <button type="submit">
+                    <span>Отправить</span>
+                </button>
+            </section>
+        </form>
+    </main>
+    <footer>
+        <!--Ссылки на соцсети  -->
+            <div class="contact">
+                <h2 class="visually-hidden" hidden>Навигация и Контакты</h2>
+                <nav class="navigation-footer">
+                    <ul class="navigation-footer-list">
+                        <li class="navigation-footer-item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="navigation-footer-item">
+                            <a href="second-page.html">Вторая страница</a>
+                        </li>
+                        <li class="navigation-footer-item">
+                            <a href="">Начало страницы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="footer-contact">
+                    <h2 class="visually-hidden" hidden>Контакты</h2>
+                    <ul class="media">
+                        <li class="VK">
+                            <a href="https://vk.com/thomassowyer">ВКонтакте</a>
+                        </li>
+                        <li class="Telegram">
+                            <a href="https://t.me/Thomassowyer">Телеграм</a>
+                        </li>
+                        <li class="instagram">
+                            <a href="https://www.instagram.com/thomassowyer">Инстаграм</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
+</body>
+</html>
